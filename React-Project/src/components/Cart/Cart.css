@@ -1,0 +1,55 @@
+.height{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-img{
+    height: 60%;
+    width: 42%;
+}
+
+
+
+.bold{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.cart-img-list{
+    width: 20%;
+}
+
+.green{
+    color: #388e3c;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.price{
+    font-size: 11px;
+}
+
+hr{
+   background-color: #f1f3f6;
+}
+
+.login{
+    margin-bottom: 12vh;
+    border: 1px solid black;
+    color: black;
+    font-size: 26px;
+    padding: 8px;
+    width: 9vw;
+    text-decoration: none;
+    text-align: center;
+}
+.login:hover{
+    cursor:pointer;
+    color: white;
+    background-color: black;
+}

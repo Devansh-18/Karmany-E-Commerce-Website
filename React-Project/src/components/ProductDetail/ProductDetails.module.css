@@ -1,0 +1,69 @@
+.container{
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+}
+.pdcontainer{
+    /* overflow-x: scroll; */
+    margin:40px 20px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    border: 1px solid grey;
+    box-shadow: -2px -1px;
+    justify-items: center;
+    align-content: center;
+}
+.pdimg{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pdtext{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    font-size: 26px;
+}
+.pdtext> :nth-child(1){
+    font-size: 40px;
+    font-weight: bolder;
+}
+.pdtext> :nth-child(2){
+    font-size: 50px;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+.buttons> button{
+    width: 100%;
+    font-size: 20px;
+    height: 54px;
+    border-radius: 14px;
+    background-color: rgba(221, 221, 48, 0.849);
+    font-weight: bold;
+}
+.buttons button:hover{
+    background-color: rgb(221, 221, 48);
+    box-shadow: 0 0 20px rgb(121, 121, 2);
+}
+.reviewContainer{
+    /* overflow-x: scroll; */
+    border: 2px solid black;
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.user{
+    border:1px solid black;
+}
+.more{
+    overflow-x: scroll;
+}

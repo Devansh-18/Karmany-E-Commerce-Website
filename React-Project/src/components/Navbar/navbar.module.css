@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-size: 20px;
+    display: flex;
+    height: 50px;
+    background-color: rgb(6, 1, 20);
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    color:black;
+}
+.logo svg{
+    width: 20vw;
+}
+nav .searchbox{
+    width: 40vw;
+    height: 40px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+nav .searchbox input{
+    width: 94%;
+    height: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0px 1px 0px 0px;
+    padding: 0px 20px;
+}
+nav .searchbox span{   
+    display: flex; 
+    width: 13%;
+    height: 100%;
+    background-color: rgba(11, 230, 212, 0.987);
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+nav .searchbox span svg{
+    width: 62%;
+    height: 80%;
+}
+
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    padding: 10px;
+    list-style-type: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    /* font-size: 15px; */
+    color: rgb(158, 144, 199);
+}
+.loginli{
+    border: 2px solid white;
+}
+
+/* second navbar */
+.navbar2{
+    justify-content: flex-start;   
+}
+
+.responsive{
+    display: none;
+    flex-direction: column;
+    position: relative;
+    top: 43vh;
+}
+
+.responsive>ul{
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    background: #474747;
+    width: 24vw;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    gap: 19px;
+    list-style: none;
+
+}
+
+.responsive>ul>li>A{
+    color: white;
+    text-decoration: none;
+}
+.imagesvg{
+    display:none;
+}
+
+
+.imageuser{
+    display:none;
+}
+
+
+@media (width<1099px){
+    nav{
+        font-size:20px;
+        justify-content:space;
+    }
+
+    .responsive{
+        display: flex;
+    }
+ 
+
+    .iconslogo{
+        display:none;
+    }
+
+    .logo{
+        display:none;
+    }
+
+    .imagesvgs{
+        display: block;
+        position: relative;
+        width: 3vw;
+        padding-left: 20px;
+        
+    }
+    .imagesvg{
+        display: block;
+        position: relative;
+        width: 3vw;
+        top: -43vh;
+        padding-left:20px;
+    }
+
+    .navbar2{
+        display:none;
+    }
+}
+
+@media (width<800px){
+
+    nav{
+        justify-content: end;
+        gap:6px
+    }
+    .navbar>ul{
+        display: none;
+    }
+
+    .imageuser{
+        display: block;
+        padding: 12px;
+    }
+}

@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.flex-row{
+    display: flex;
+    gap:47px
+}
+.upper-heading>h5>a{
+    text-decoration: none;
+    color: #2874f0;
+}
+
+.navbar{
+    background-color: #df648b;
+}
+
+body{
+    background:#f1f3f6;
+}
+
+.user-container{
+    background: #f1f3f6;
+    /* position: relative; */
+    top: 74px;
+    
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding: 55px;
+}
+
+.user-left-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    width: 20%;
+  
+}
+
+.right-container{
+    box-shadow: 0px 0px 5px #b5b4b4;
+    background-color: black;
+    width: 50%;
+    /* height: 30%; */
+    padding: 17px;
+}
+
+.account-name{
+    box-shadow: 0px 0px 5px #b5b4b4;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    gap: 17px;
+    padding: 10px;
+}
+
+.account-name>div{
+    margin: auto 0px;
+}
+
+.content{
+    display: flex;
+    gap: 10px;
+    padding: 13px;
+}
+
+.content>h5{
+    margin: auto 0px;
+    color: white;
+}
+.user-section{
+    box-shadow: 0px 0px 5px #b5b4b4;
+    background-color: #170b38;
+    padding: 10px;
+    list-style: none;
+    height: 100%;
+}
+
+.user-section:nth-child(1){
+    justify-content: space-around;
+}
+
+.main-heading{
+    margin-left: 23px;
+    margin-bottom: 34px;
+}
+.main-heading >h4{
+    margin: 15px 0px;
+    font-size: 18px;
+}
+
+.upper-heading>h5{
+    color: #2874f0;
+
+}
+
+.upper-heading>h5:hover{
+    cursor: pointer;
+}
+
+.address-input{
+    height: 16vh;
+    width: 35vw;
+
+}
+.upper-heading{
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    gap: 27px;
+    justify-content: space-between;
+    margin: 14px 0px;
+    
+}
+
+.down-content{
+    text-align: center;
+    /* padding: 8px; */
+    font-size: 17px;
+}
+
+.down-content>h5{
+    padding: 10px 0px;
+    color: white;
+
+}
+
+.down-content>h5:hover{
+    cursor: pointer;
+    color: #2874f0;
+    background-color: #e9e8e9;;
+}
+
+/* .main-heading>input{
+    border-radius: 2px;
+    border: 1px solid #b9b2b26b;
+    outline: none;
+    padding: 9px;
+    font-size: 13px;
+    margin: 0px 8px 0px 0px;
+    background-color: #fafafa;
+} */
+
+/* input:hover{
+   /* cursor: not-allowed; 
+} */
+
+.arrow{
+    rotate: -180deg;
+    height: 18px;
+}
+
+.bold-black{
+    color: rgb(255, 255, 255);
+   
+    text-shadow: none;
+    font-size: 17px;
+
+}

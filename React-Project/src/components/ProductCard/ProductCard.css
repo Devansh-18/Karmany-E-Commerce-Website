@@ -1,0 +1,132 @@
+.grid{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 38px;
+    padding: 20px;
+    background-color: #c5bdbd;
+}
+
+.card-grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    color: white;
+    width: 21vw;
+    height: 72vh;
+    margin: auto;
+}
+.card-grid:hover{
+    cursor: pointer;
+}
+.name{
+    text-align: center;
+    font-size: 22px;
+    padding: 8px;
+}
+
+.sp{
+    color: #259400;
+    font-weight: bold;
+}
+
+.mp{
+    color: #ff0000;
+    text-decoration: line-through;
+}
+
+.m-16{
+    margin: 16px;
+    font-size: 21px;
+}
+
+.profit{
+    color: green;
+}
+
+.flex{
+    gap: 17px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-content{
+    display: flex;
+    margin: 11px;
+    justify-content: space-evenly;
+}
+
+.image-container{
+    overflow: hidden;
+    object-fit: contain;
+    height: 400px;
+}
+
+.product-image{
+    object-fit: fill;
+    height: 100%;
+    width: 100%;
+    border-radius: 2px;
+
+}
+.name{
+    height: 40px;
+}
+
+.addcart{
+    text-align: center;
+    width: 97px;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 9px;
+    margin: auto ;
+    background-color: WHITE;
+    /* border: 1px solid #393939; */
+    color: black;
+    border-radius: 2px;
+    transition: all 0.2s ease-out;
+}
+
+.addcart:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.content-footer{
+    background-color: black;
+    height: 36%;
+}
+
+.total{
+    text-align: center;
+    font-size: 32px;
+    background: #c5bdbd;
+    color: black;
+    padding: 12px;
+    font-weight: 700;
+}
+
+@media (width<1300px){
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .card-grid{
+        width: 28vw;
+        height: 94vh;
+    }
+}
+
+@media (width<700px){
+    .grid{
+        grid-template-columns: 1fr ;
+    }
+    .card-grid{
+        width: 54vw;
+        height: 79vh;
+    }
+}

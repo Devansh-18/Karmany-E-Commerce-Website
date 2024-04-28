@@ -1,0 +1,42 @@
+.lower-part{
+    color: white;
+    background-color: black;
+   
+    padding: 14px;
+}
+
+.about-us{
+    padding: 17px;
+    text-align: center;
+    background-color: black;
+}
+
+.p-12{
+    padding: 12px;
+}
+
+.Heading{
+    font-size: 44px;
+    text-align: center;
+    font-weight: 300;
+    color: white;
+}
+
+.padding{
+    color: white;
+    padding: 32px;
+}
+.center{
+    text-align: center;
+    margin: 8px;
+}
+
+@media (width<400px){
+    .grid>p{
+        font-size:13px;
+    }
+
+    .grid{
+        gap:20px;
+    }
+}

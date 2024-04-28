@@ -1,0 +1,128 @@
+main> .topcontainer{
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    top: 0px;
+    overflow: hidden;
+    /* display: inline-block; */
+    /* transition: transform 1s ease-in-out; */
+}
+main> .topcontainer> .bgcurtain{
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(rgb(225, 243, 121), rgb(240, 240, 123), rgb(75, 236, 201));
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+main> .topcontainer> .bgcurtain2{
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(rgb(243, 237, 158), rgb(241, 152, 149), rgb(238, 163, 102));
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+main> .topcontainer> .bgcurtain3{
+    height: 100%;
+    width: 100%;
+    background-image: radial-gradient(rgb(196, 124, 124), rgb(177, 223, 151), rgb(146, 223, 233));
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
+
+@keyframes slide1 {
+    0% {
+        left: 100%;
+    }
+    4% {
+        left: 0%;
+    }
+    33.33%{
+        left: 0%;
+    }
+    37.33%{
+        left: -100%;
+    }
+    100%{
+        left: -100%;
+    }
+  }
+  
+  .topcontainer> .bgcurtainanime {
+    animation: slide1 24s linear infinite;
+  }
+  .topcontainer> .bgcurtain2 {
+    animation: slide1 24s 8s linear infinite forwards;
+    /* animation-delay: 3.33s; */
+  }
+  .topcontainer> .bgcurtain3 {
+    animation: slide1 24s 16s linear infinite forwards;
+    /* animation-delay: 3.33s; */
+  }
+
+  .phone{
+    position: absolute;
+    top: 10%;left: 5%;right: 5%;bottom: 10%;
+    /* background-color: red; */
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+.phone .phonetext{
+    width: 45%;
+    text-align: right;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+.phonetext :nth-child(1){
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    color: brown;
+}
+.phonetext :nth-child(2){
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: 700;
+    color: rgb(238, 108, 158);
+    margin: 10px 0;
+}
+.phonetext :nth-child(3){
+    font-size: large;
+    font-family: cursive;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.phonetext :nth-child(4){
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    color: black;
+}
+.phonetext :nth-child(5){
+    color: black;
+    font-size: xx-large;
+    font-family: fantasy;
+    font-weight: 400;
+}
+
+.phone .phoneimage{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.phoneimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
